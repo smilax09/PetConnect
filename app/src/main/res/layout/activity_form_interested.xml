@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Name"
+            android:inputType="textPersonName"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Email"
+            android:inputType="textEmailAddress"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Phone Number"
+            android:inputType="phone"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Address"
+            android:layout_marginBottom="16dp" />
+
+        <EditText
+            android:id="@+id/editReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Why do you want to adopt this cutie?"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Adoption Agreement section with checkboxes -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adoption Agreement:"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkSpayNeuter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to spay/neuter the pet (if not already done)" />
+
+        <CheckBox
+            android:id="@+id/checkProperCare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to provide proper care, including food, shelter, and medical care" />
+
+        <CheckBox
+            android:id="@+id/checkReturnPet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to return the pet to the rescue organization if unable to keep it" />
+
+        <CheckBox
+            android:id="@+id/checkFollowUpVisits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I agree to allow follow-up visits or checks by the rescue organization" />
+
+        <EditText
+            android:id="@+id/editMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Any Questions or Message for us"
+            android:layout_marginVertical="16dp" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+</ScrollView>

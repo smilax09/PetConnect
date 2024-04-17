@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    tools:context=".PetViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/imgPet"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            android:src="@drawable/maine_coon" />
+
+        <TextView
+            android:id="@+id/petName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pet Name"
+            android:textSize="28sp"
+            android:paddingTop="16dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textAgeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Age:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petAge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 years"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textGenderLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gender:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Male"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textTypeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Type:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cat"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textBreedLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Breed:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petBreed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Siamese"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textVaccinationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vaccination:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petVaccination"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Up to date"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textAllergiesLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Allergies:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petAllergies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="None"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textLocationLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Currently At:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shelter Name"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="start">
+
+            <TextView
+                android:id="@+id/textAboutLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="About:"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/petAbout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                android:textSize="18sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/adoptButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adopt"
+            android:textSize="18sp"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp" />
+    </LinearLayout>
+</ScrollView>

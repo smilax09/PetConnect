@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/addPost"
+        android:title="Add Post"
+        android:icon="@drawable/icon_add_post"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/cart"
+        android:title="logout"
+        android:icon="@drawable/icon_basket"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/icon_user_account"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+    <item android:id="@+id/logout"
+        android:title="logout"
+        android:icon="@drawable/icon_logout"
+        app:showAsAction="ifRoom"
+        android:visible="false"/>
+
+
+
+</menu>
